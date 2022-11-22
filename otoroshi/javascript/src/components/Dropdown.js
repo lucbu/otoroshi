@@ -1,5 +1,5 @@
 import React from 'react';
-import variables from '../style/_variables.scss';
+import variables from '../style/_variables.module.scss';
 
 export function Dropdown({ children, className = '', style = {}, buttonStyle }) {
   return (
