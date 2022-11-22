@@ -7,7 +7,7 @@ body {
 }
 
 .navbar-brand {
-  background-color: #F9B000;
+  background-color: var(--color-primary);
   color: white;
   font-weight: 700;
   transition-duration: 0.5s;
@@ -21,7 +21,7 @@ a.navbar-brand :focus, a.navbar-brand:hover {
 }
 
 .navbar-brand:hover {
-  background-color: #ffc02e;
+  background-color: var(--color-primary-lighter);
 }
 
 .navbar-brand, .navbar-nav>li>a {
