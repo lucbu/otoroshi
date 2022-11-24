@@ -7,7 +7,7 @@ export function Dropdown({ children, className = '', style = {}, buttonStyle }) 
       <button
         className="btn btn-sm toggle-form-buttons d-flex align-items-center dark-background"
         style={{
-          backgroundColor:  "var(--bg-color_primary)",
+          backgroundColor:  '#494948',
           color: '#fff',
           height: '100%',
           ...(buttonStyle || {}),
@@ -22,7 +22,7 @@ export function Dropdown({ children, className = '', style = {}, buttonStyle }) 
         className="dropdown-menu"
         aria-labelledby="menu"
         style={{
-          background: "var(--bg-color_primary)",
+          background: 'rgb(73, 73, 72)',
           border: '1px solid #373735',
           borderTop: 0,
           padding: '12px',
