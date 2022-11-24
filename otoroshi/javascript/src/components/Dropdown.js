@@ -1,5 +1,4 @@
 import React from 'react';
-import variables from '../style/_variables.module.scss';
 
 export function Dropdown({ children, className = '', style = {}, buttonStyle }) {
   return (
@@ -7,7 +6,7 @@ export function Dropdown({ children, className = '', style = {}, buttonStyle }) 
       <button
         className="btn btn-sm toggle-form-buttons d-flex align-items-center dark-background"
         style={{
-          backgroundColor:  '#494948',
+          backgroundColor: '#494948',
           color: '#fff',
           height: '100%',
           ...(buttonStyle || {}),
