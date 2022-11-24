@@ -135,7 +135,6 @@ body.white-mode,
   thead > tr, 
   thead > tr > td > span,
   textarea.form-control,
-  .jumbotron h1,
   .Select-option, 
   .Select-menu-outer,
   .is-open > .Select-control,
@@ -158,16 +157,12 @@ body.white-mode,
   }
   .dropdown .dropdown-toggle:hover,
   .sub-container__bg-color,
-  .jumbotron, nav, .custom-dropdown {
+  nav, .custom-dropdown {
     @include bright-mode_background-color--darkest;
   }
 
   .sidebar h2 a {
     color: $primaryColor !important;
-  }
-  .jumbotron .btn {
-    @include bright-mode_color--light;
-    background-color: $primaryColor;
   }
 
   .logo-xs img {
